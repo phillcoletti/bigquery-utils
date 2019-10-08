@@ -1,6 +1,8 @@
 ## Example Output
 The resulting table will include costs from all GCE SKUs. SKUs to which CUD or SUD have been applied will show both the credit $ amount and the usage amount offset by the credit. This is the schema of the output table, along with an example value.
 
+*** NOTE: The CUD savings calculated by this query is relative to list price without SUDs. This query does NOT consider the amount of SUDs that you may have earned on your usage, if you had not purchased CUDs.
+
 | **Field Name** | **Description** | **Example Value** |
 | :- | :- | :- |
 | usage_date | Date (Los Angeles Time) in which the usage occurred | 2019-07-23 |
